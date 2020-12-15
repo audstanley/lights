@@ -1,7 +1,7 @@
 import React from 'react';
 import { HuePicker } from 'react-color';
 import { w3cwebsocket as W3CWebSocket } from "websocket";
-const client = new W3CWebSocket('ws://127.0.0.1:8080');
+const client = new W3CWebSocket('ws://lights-server.audstanley.com');
 const colorCode = (hsvColor) => parseInt(hsvColor * 182.548746518);
 
 // This is a function that will convert HSL color to Hex

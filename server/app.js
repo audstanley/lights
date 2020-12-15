@@ -12,7 +12,7 @@ let lightsObj = {};
 let lastLightChange = "1";
 
 // my light is light number: 8
-const wss = new WebSocket.Server({ port: 8080 });
+const wss = new WebSocket.Server({ port: 8081 });
 
 // Wesocket Connection to client.
 wss.on('connection', function connection(ws) {
