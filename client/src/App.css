@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+.App {
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#title-top {
+  display: flex;
+}
+
+#title {
+  margin-right: 3rem;
+}
+
+#author {
+ align-self: flex-end;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-align: right;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-family: 'PT Sans Caption', sans-serif;
+  margin-left: 1rem;
+}
+
+h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+hr {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.2rem;
+}
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.light-component {
+  margin-top: 3rem;
+}
+
+label {
+  flex: auto;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.hue-horizontal {
+  margin-left: 3rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
